@@ -1,0 +1,97 @@
+@font-face {
+	font-family: Roboto;
+	src: url(fonts/Roboto.ttf);
+	font-weight:normal;
+	font-style:normal;
+}
+
+.arrows {
+	margin:10px 0;
+}
+
+.away {
+	width:40%;
+	text-align:left;
+}
+
+body {
+	font-family:Roboto;
+	text-align:center;
+}
+
+.content {
+	margin:0 auto;
+	width:40%;
+}
+
+.home {
+	width:40%;
+	text-align:right;
+}
+
+.line {
+	background:#56a6af;
+	color:#fff;
+	font-size:16px;
+	line-height:26px;
+	margin:5px 0 5px 0;
+}
+
+.more {
+	
+}
+
+.score {
+	text-align:center;
+	width:3%;
+}
+
+#matches {
+	width:100%;
+}
+
+#next {
+	background:#56a6af;
+	color:#fff;
+	display:inline-block;
+	padding:4px 16px;
+}
+
+#prev {
+	background:#56a6af;
+	color:#fff;
+	display:none;
+	padding:4px 16px;
+}
+
+#next:hover, #prev:hover {
+	background:#fff;
+	color:#56a6af;
+}
+
+span {
+	display:inline-block;
+}
+
+ul {
+	margin-top:20px;
+}
+
+ul li {
+	display:inline-block;
+}
+
+ul a {
+	background:#56a6af;
+	color:#fff;
+	display:inline-block;
+	font-size:20px;
+	line-height:30px;
+	padding:0 10px 0 10px;
+	text-transform:uppercase;
+}
+
+ul a:hover {
+	background:#fff;
+	color:#56a6af;
+}
